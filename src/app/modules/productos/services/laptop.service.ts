@@ -22,8 +22,6 @@ export class LaptopService {
       { id: 3, nombre: 'Lenovo' }
     ]);
 
-
-
     return this.http.get<Laptop[]>(this.URLbase);
   }
 
