@@ -1,7 +1,7 @@
 import { WeatherforecastService } from './weatherforecast.service';
 import { Component, inject } from '@angular/core';
 import { RouterOutlet } from '@angular/router';
-import { MenuComponent } from "./menu/menu.component";
+import { MenuComponent } from "./shared/menu/menu.component";
 
 @Component({
   selector: 'app-root',

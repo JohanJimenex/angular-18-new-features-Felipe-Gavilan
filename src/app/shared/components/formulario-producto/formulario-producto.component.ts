@@ -1,11 +1,10 @@
-import { Laptop, LaptopCreacion } from './../laptop.models';
 import { Component, EventEmitter, inject, Input, OnInit, Output } from '@angular/core';
 import { FormBuilder, ReactiveFormsModule } from '@angular/forms';
 import { MatButtonModule } from '@angular/material/button';
 import { MatFormFieldModule } from '@angular/material/form-field';
 import { MatInputModule } from '@angular/material/input';
 import { Router, RouterLink } from '@angular/router';
-import { LaptopService } from '../laptop.service';
+import { Laptop, LaptopCreacion } from '../../../laptop.models';
 
 @Component({
   selector: 'app-formulario-producto',

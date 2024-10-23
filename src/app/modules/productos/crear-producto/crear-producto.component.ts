@@ -4,9 +4,9 @@ import { MatButtonModule } from '@angular/material/button';
 import { MatFormFieldModule } from '@angular/material/form-field';
 import { MatInputModule } from '@angular/material/input';
 import { Router, RouterLink } from '@angular/router';
-import { LaptopService } from '../laptop.service';
-import { LaptopCreacion } from '../laptop.models';
-import { FormularioProductoComponent } from "../formulario-producto/formulario-producto.component";
+import { LaptopCreacion } from '../../../laptop.models';
+import { FormularioProductoComponent } from '../../../shared/components/formulario-producto/formulario-producto.component';
+import { LaptopService } from '../services/laptop.service';
 
 @Component({
   selector: 'app-crear-producto',

@@ -1,5 +1,5 @@
 import { Component, inject } from '@angular/core';
-import { WeatherforecastService } from '../weatherforecast.service';
+import { WeatherforecastService } from '../../weatherforecast.service';
 
 @Component({
   selector: 'app-landing',

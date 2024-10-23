@@ -1,8 +1,8 @@
 import { Component, inject, Input, numberAttribute, OnInit } from '@angular/core';
-import { LaptopService } from '../laptop.service';
-import { Laptop, LaptopCreacion } from '../laptop.models';
-import { FormularioProductoComponent } from "../formulario-producto/formulario-producto.component";
+import { Laptop, LaptopCreacion } from '../../../laptop.models';
 import { Router } from '@angular/router';
+import { FormularioProductoComponent } from '../../../shared/components/formulario-producto/formulario-producto.component';
+import { LaptopService } from '../services/laptop.service';
 
 @Component({
   selector: 'app-editar-producto',

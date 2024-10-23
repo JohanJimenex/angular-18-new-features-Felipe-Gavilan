@@ -1,11 +1,11 @@
 import { Component, inject } from '@angular/core';
 import { MatButtonModule } from '@angular/material/button';
 import { RouterLink } from '@angular/router';
-import { LaptopService } from '../laptop.service';
-import { Laptop } from '../laptop.models';
 import { MatTableModule } from '@angular/material/table';
 import { SweetAlert2Module } from '@sweetalert2/ngx-sweetalert2';
 import Swal from 'sweetalert2';
+import { Laptop } from '../../../laptop.models';
+import { LaptopService } from '../services/laptop.service';
 
 @Component({
   selector: 'app-indice-productos',
