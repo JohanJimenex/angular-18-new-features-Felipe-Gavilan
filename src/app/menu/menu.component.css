@@ -1,0 +1,5 @@
+.active-link {
+    background-color: hsl(0, 0%, 87%);
+    color: #343a40;
+    font-weight: bold;
+}
