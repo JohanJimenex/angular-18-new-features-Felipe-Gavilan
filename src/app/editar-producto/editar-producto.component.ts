@@ -11,7 +11,7 @@ import { Router } from '@angular/router';
   templateUrl: './editar-producto.component.html',
   styleUrl: './editar-producto.component.css'
 })
-export class EditarProductoComponent implements OnInit {
+export default class EditarProductoComponent implements OnInit {
 
   @Input({ transform: numberAttribute }) id!: number //este id  se captura automatico desde la url con la confguracion previa en app.config.ts
 
